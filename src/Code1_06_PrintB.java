@@ -13,9 +13,10 @@ public class Code1_06_PrintB {
         long time2 = System.currentTimeMillis();
         System.out.println(time2 - time1);
 
+        //打印出的值都是在计算机中表示形式，即补码；整型的最小值-1取反即是0
         long time3 = System.currentTimeMillis();
-        en_printBinary(-2147483648);
-        en_printBinary(-2147483648+1);
+        en_printBinary(-1);
+        en_printBinary(1);
         long time4 = System.currentTimeMillis();
         System.out.println(time4 - time3);
 
